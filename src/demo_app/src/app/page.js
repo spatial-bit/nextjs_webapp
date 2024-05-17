@@ -1,9 +1,11 @@
-import { Button } from 'primereact/button'; 
+'use client';
+
+import DashboardPage from '@/ui/DashboardPage';
 
 export default function Home() {
   return (
     <div>
-        <Button label="Click me" />
+      <DashboardPage />
     </div>
   );
 }
